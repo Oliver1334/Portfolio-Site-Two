@@ -7,10 +7,11 @@
 
 @layer body {
     body{
-
+    @apply font-abc;
     }
     li{
-
+        @apply px-4;
+        @apply cursor-pointer
     }
 }
 
@@ -22,7 +23,7 @@
     background-repeat: no-repeat;
 
 }
-/* test push 2*/
+
 .content-div:hover {
     background-image: linear-gradient(
         to right,

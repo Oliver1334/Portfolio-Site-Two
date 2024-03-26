@@ -20,12 +20,12 @@ const Navbar = () => {
       </div>
       {/* menu */}
 
-      <ul className="font-abc hidden md:flex">
-        <li className="px-4 cursor-pointer">Home</li>
-        <li className="px-4 cursor-pointer">About</li>
-        <li className="px-4 cursor-pointer">Skills</li>
-        <li className="px-4 cursor-pointer">Work</li>
-        <li className="px-4 cursor-pointer">Contact</li>
+      <ul className="hidden md:flex">
+        <li >Home</li>
+        <li >About</li>
+        <li >Skills</li>
+        <li >Work</li>
+        <li >Contact</li>
       </ul>
 
       {/* Hamburger Icon*/}
