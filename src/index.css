@@ -16,12 +16,11 @@
 }
 
 .content-div {
-    
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px;
-    background-repeat: no-repeat;
-
+    height: 250px;
+    
 }
 
 .content-div:hover {
