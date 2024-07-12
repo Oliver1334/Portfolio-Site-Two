@@ -10,7 +10,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
@@ -128,4 +128,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;

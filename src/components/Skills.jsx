@@ -11,7 +11,7 @@ import GitHub from "../assets/github.png";
 import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 
-const Skills = () => {
+export const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen bg-[#410c0c] text-gray-300 ">
       {/* container */}
@@ -62,4 +62,3 @@ const Skills = () => {
   );
 };
 
-export default Skills;
