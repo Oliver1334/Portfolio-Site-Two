@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Contact = () => {
+export const Contact = () => {
   return (
     <div name='contact' className='w-full h-screen bg-[#410c0c] flex justify-center items-center p-4'>
         <form method='POST' action="https://getform.io/f/pbqgogdb" className='flex flex-col max-w-[600px] w-full'>
@@ -18,5 +18,3 @@ const Contact = () => {
     </div>
   )
 }
-
-export default Contact

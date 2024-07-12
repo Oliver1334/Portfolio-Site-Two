@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+export const About = () => {
   return (
     <div name="about" className="w-full h-screen bg-[#410c0c] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
@@ -31,4 +31,4 @@ const About = () => {
   );
 };
 
-export default About;
+
