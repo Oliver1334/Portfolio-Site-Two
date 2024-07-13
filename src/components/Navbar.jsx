@@ -87,17 +87,12 @@ export const Navbar = () => {
           </Link>
         </li>
       </ul>
+
+
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
+          
           <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
@@ -112,14 +107,6 @@ export const Navbar = () => {
               href="/"
             >
               Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="/"
-            >
-              CV <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>
