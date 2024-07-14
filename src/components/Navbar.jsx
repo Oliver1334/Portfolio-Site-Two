@@ -93,7 +93,7 @@ export const Navbar = () => {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           
-          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2D3A3A]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/Oliver1334"
@@ -103,7 +103,7 @@ export const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#248232]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:oliver.taylor1334@outlook.com"
