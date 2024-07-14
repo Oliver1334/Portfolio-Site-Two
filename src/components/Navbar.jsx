@@ -6,13 +6,14 @@ import {
   FaLinkedin,
   FaFacebook,
 } from "react-icons/fa";
+import Hamburger from 'hamburger-react'
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  const [isOpen, setOpen] = useState(false)
+  const handleClick = () => setOpen(!isOpen);
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#410c0c] text-gray-300">
@@ -51,38 +52,36 @@ export const Navbar = () => {
 
       {/* Hamburger Icon*/}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
       {/* Mobile Menu */}
       <ul
-        className={
-          !nav
-            ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#410c0c] flex flex-col justify-center items-center"
-        }
+        className={`absolute top-0 left-0 w-full h-screen bg-[#410c0c] flex flex-col justify-center items-center transition-transform duration-500 ease-in-out ${
+          isOpen ? 'transform translate-y-0' : 'transform -translate-y-full'
+        }`}
       >
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-        <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
         </li>
