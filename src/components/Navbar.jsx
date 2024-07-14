@@ -96,7 +96,9 @@ export const Navbar = () => {
           <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/Oliver1334"
+              target="_blank" // This will open the link in a new tab
+              rel="noopener noreferrer" // This is a security measure when using target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -104,7 +106,7 @@ export const Navbar = () => {
           <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:oliver.taylor1334@outlook.com"
             >
               Email <HiOutlineMail size={30} />
             </a>

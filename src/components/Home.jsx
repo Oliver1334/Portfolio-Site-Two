@@ -1,6 +1,7 @@
 import React from 'react'
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from "react-scroll";
+import { ReactTyped } from "react-typed";
 
 
 export const Home = () => {
@@ -13,6 +14,16 @@ export const Home = () => {
     <p className='text-white'>Hi, my name is</p>
     <h1 className='text-4xl sm:text-7xl font-bold text-gray-300'>Oliver Taylor</h1>
     <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a Full Stack Developer.</h2>
+    <p className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2">
+Howdy Doody
+    <ReactTyped
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
+            strings={["Javascript", "ReactJS", "TailwindCSS"]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+            />
+            </p>
     <p className='text-[#8892b0] py-4 max-w-[700px]'> I'm a full-stack developer specialising in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building responsive full-stack web applications</p>
     <div>
 
