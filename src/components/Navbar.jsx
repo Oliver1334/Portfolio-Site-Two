@@ -16,7 +16,7 @@ export const Navbar = () => {
   const handleClick = () => setOpen(!isOpen);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#410c0c] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#040F0F] text-[#FCFFFC]">
       <div>
         <h1></h1>
       </div>
@@ -24,27 +24,27 @@ export const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
             Home
           </Link>
         </li>
         <li>
-        <Link to="about" smooth={true} duration={500}>
+        <Link to="about" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
             About
           </Link>
         </li>
         <li>
-        <Link to="skills" smooth={true} duration={500}>
+        <Link to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
             Skills
           </Link>
         </li>
         <li>
-        <Link to="work" smooth={true} duration={500}>
+        <Link to="work" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
             Work
           </Link>
         </li>
         <li>
-        <Link to="contact" smooth={true} duration={500}>
+        <Link to="contact" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
             Contact
           </Link>
         </li>
@@ -56,32 +56,32 @@ export const Navbar = () => {
       </div>
       {/* Mobile Menu */}
       <ul
-        className={`absolute top-0 left-0 w-full h-screen bg-[#410c0c] flex flex-col justify-center items-center transition-transform duration-500 ease-in-out ${
+        className={`absolute top-0 left-0 w-full h-screen bg-[#040F0F] flex flex-col justify-center items-center transition-transform duration-500 ease-in-out ${
           isOpen ? 'transform translate-y-0' : 'transform -translate-y-full'
-        }`}
+        }`} //template literal to access isOpen here for ternary operator
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="work" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
             Work
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
             Contact
           </Link>
         </li>
