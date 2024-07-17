@@ -30,7 +30,7 @@ export const Contact = () => {
     formData.append('message', message);
   
     try {
-      await fetch('https://getform.io/f/', {
+      await fetch('https://getform.io/f/pbqgogdb', {
         method: 'POST',
         body: formData,
       });
