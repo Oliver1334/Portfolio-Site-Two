@@ -5,11 +5,13 @@ import CSS from "../assets/css.png";
 import Javascript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import FireBase from "../assets/firebase.png";
-import AWS from "../assets/aws.png";
-import GitHub from "../assets/github.png";
+import PostgreSQL from "../assets/postgresql.png";
+import Git from "../assets/git.png";
 import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
+import ExpressJS from "../assets/express.png";
+import Jest from "../assets/jest.png"
+import APImg from "../assets/api.png"
+
 
 export const Skills = () => {
   return (
@@ -23,39 +25,59 @@ export const Skills = () => {
           <p className="py-4">// These are the technologies i've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={HTML} alt="HTML icon"></img>
-            <p className="py-4">HTML</p>
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8">
+
+
+          <div className="shadow-lg shadow-[#248232] hover:scale-110 duration-300 bg-[#2D3A3A]">
+            <img className="w-20 mx-auto pt-4" src={Javascript} alt="Javascript icon"></img>
+            <p className="py-3">JAVASCRIPT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={CSS} alt="HTML icon"></img>
-            <p className="py-4">CSS</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={ReactImg} alt="React icon"></img>
+            <p className="py-3">REACT</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Javascript} alt="HTML icon"></img>
-            <p className="py-4">JAVASCRIPT</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={HTML} alt="HTML icon"></img>
+            <p className="py-3">HTML</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML icon"></img>
-            <p className="py-4">REACT</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={CSS} alt="CSS icon"></img>
+            <p className="py-3">CSS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={GitHub} alt="HTML icon"></img>
-            <p className="py-4">GITHUB</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={Node} alt="NODEJS icon"></img>
+            <p className="py-3">NODE JS</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Node} alt="HTML icon"></img>
-            <p className="py-4">NODE JS</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={PostgreSQL} alt="PostgreSQL icon"></img>
+            <p className="py-3">POSTGRESQL</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Mongo} alt="HTML icon"></img>
-            <p className="py-4">MONGO DB</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={Jest} alt="Jest icon"></img>
+            <p className="py-3">JEST</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={AWS} alt="HTML icon"></img>
-            <p className="py-4">AWS</p>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={Tailwind} alt="Tailwind icon"></img>
+            <p className="py-3">TAILWIND CSS</p>
           </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={ExpressJS} alt="Express icon"></img>
+            <p className="py-3">EXPRESS JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={Git} alt="GIT icon"></img>
+            <p className="py-3">GIT</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto pt-4" src={APImg} alt="API icon"></img>
+            <p className="py-3">RESTFUL APIS</p>
+          </div>
+
+
+
+
+
+
         </div>
       </div>
     </div>
