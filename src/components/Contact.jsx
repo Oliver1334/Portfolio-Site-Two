@@ -63,7 +63,7 @@ export const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
         onSubmit={handleSubmit}
       >
-        <div className="pb-1">
+        <div className="pb-2">
           <p className="text-4xl font-bold inline border-b-4 border-[#248232] text-[#FCFFFC]">
             Contact
           </p>
