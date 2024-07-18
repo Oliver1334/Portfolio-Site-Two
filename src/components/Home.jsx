@@ -3,8 +3,26 @@ import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from "react-scroll";
 import { ReactTyped } from "react-typed";
 
+const shuffleArray = (array) => {
+  for (let currentIndex = array.length - 1; currentIndex > 0; currentIndex--) {
+    const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+  }
+  return array;
+};
+
 
 export const Home = () => {
+
+  const strings = [
+    "JavaScript", "React JS", "PostgreSQL", "HTML", "CSS",
+    "Tailwind CSS", "Node.js", "Jest", "RESTful API", "Git",
+    "Express.js"
+  ];
+
+  // Shuffle the array of strings
+  const shuffledStrings = shuffleArray([...strings]);
+
   return (
     <div name='home' className='w-full h-screen bg-[#040F0F]'>
         
@@ -16,7 +34,7 @@ export const Home = () => {
     <h2 className=' text-5xl sm:text-6xl font-bold text-[#2BA84A]'>Full Stack Software Developer.</h2>
     <ReactTyped
             className="mt-2 text-[#2BA84A] md:text-5xl sm:text-4xl text-xl font-bold"
-            strings={["Javascript", "React JS", "SQL",  "HTML", "CSS", "TailwindCSS"]}
+            strings={shuffledStrings}
             typeSpeed={120}
             backSpeed={140}
             loop
