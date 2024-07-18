@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaGithub } from "react-icons/fa";
 
 export const Contact = () => {
   // states to keep track of form inputs
@@ -55,21 +57,38 @@ export const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#040F0F] flex justify-center items-center p-4"
+      className="w-full h-screen bg-[#040F0F] flex justify-center items-center p-4 pt-12"
     >
       <form
         method="POST"
         action="https://getform.io/f/pbqgogdb"
-        className="flex flex-col max-w-[600px] w-full"
+        className="flex flex-col max-w-[600px] w-full pt-12"
         onSubmit={handleSubmit}
       >
-        <div className="pb-2">
+        <div className="pb-1">
           <p className="text-4xl font-bold inline border-b-4 border-[#248232] text-[#FCFFFC]">
             Contact
           </p>
-          <p className="text-[#FCFFFC] py-4">
-            // Submit the form below or send me an email -
-            oliver.taylor1334@outlook.com
+          <div className="flex justify-start w-full max-w-[600px] space-x-4 mt-3">
+            <a
+              className="text-white border-2 hover:bg-[#2D3A3A] hover:border-[#2D3A3A] px-4 py-3 my-4 flex items-center "
+              href="https://github.com/Oliver1334"
+              target="_blank" // This will open the link in a new tab
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <FaGithub size={30} />{" "}
+            </a>
+            <a
+              className="text-white border-2 hover:bg-[#248232] hover:border-[#248232] px-4 py-3 my-4 flex items-center"
+              href="mailto:oliver.taylor1334@outlook.com"
+            >
+              <HiOutlineMail size={30} />
+            </a>
+          </div>
+
+          <p className="text-[#FCFFFC] pb-4 ">
+            // Submit the form below to get in touch!
           </p>
         </div>
         <input
