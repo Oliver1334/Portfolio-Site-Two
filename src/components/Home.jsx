@@ -6,7 +6,10 @@ import { ReactTyped } from "react-typed";
 const shuffleArray = (array) => {
   for (let currentIndex = array.length - 1; currentIndex > 0; currentIndex--) {
     const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    const temp = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temp;
+
   }
   return array;
 };
@@ -14,14 +17,14 @@ const shuffleArray = (array) => {
 
 export const Home = () => {
 
-  const strings = [
+  const skills = [
     "JavaScript", "React JS", "PostgreSQL", "HTML", "CSS",
     "Tailwind CSS", "Node.js", "Jest", "RESTful API", "Git",
     "Express.js"
   ];
 
   // Shuffle the array of strings
-  const shuffledStrings = shuffleArray([...strings]);
+  const shuffledSkills = shuffleArray([...skills]);
 
   return (
     <div name='home' className='w-full h-screen bg-[#040F0F]'>
@@ -34,7 +37,7 @@ export const Home = () => {
     <h2 className=' text-5xl sm:text-6xl font-bold text-[#2BA84A]'>Full Stack Software Developer.</h2>
     <ReactTyped
             className="mt-2 text-[#2BA84A] md:text-5xl sm:text-4xl text-xl font-bold"
-            strings={shuffledStrings}
+            strings={shuffledSkills}
             typeSpeed={120}
             backSpeed={140}
             loop
