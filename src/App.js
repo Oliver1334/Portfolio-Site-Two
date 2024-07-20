@@ -3,37 +3,42 @@ import { Contact } from "./components/Contact";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { Skills } from "./components/Skills";
-import { Work } from "./components/Work";
+import { Projects } from "./components/Projects";
+import { Ncgames } from "./components/NCgames";
+import { Fanfinder } from "./components/FanFinder";
+import { Weather } from "./components/Weather";
 import React, { useEffect, useRef, useState } from "react";
 
 const RevealOnScroll = ({ children }) => {
-  const [isVisible, setIsVisible] = useState(false);
-  const ref = useRef(null);
+  const [isVisible, setIsVisible] = useState(false); // Initial visibility state
+  const ref = useRef(null); // Reference to the DOM element
 
   useEffect(() => {
-      const onWindScroll = () => {
-          const element = ref.current;
-          if (element) {
-              const { top } = element.getBoundingClientRect();
-              const isVisible = top < window.innerHeight;
-              setIsVisible(isVisible);
-          }
-      };
+    const onWindScroll = () => {
+      const element = ref.current; // Get the DOM element
+      if (element) {
+        const { top, bottom } = element.getBoundingClientRect(); // Get element's position
+        const windowHeight = window.innerHeight; // Get viewport height
+        const isVisible = top < windowHeight && bottom > 0; // Check if element is visible
+        setIsVisible(isVisible); // Update visibility state
+      }
+    };
 
-      window.addEventListener("scroll", onWindScroll);
-      return () => {
-          window.removeEventListener("scroll", onWindScroll);
-      };
-  }, []);
+    window.addEventListener("scroll", onWindScroll); // Add scroll event listener
+    onWindScroll(); // Check visibility on mount
 
-  const classes = `transition-opacity duration-1000
-      ${isVisible ? "opacity-100" : "opacity-0"
-      }`;
+    return () => {
+      window.removeEventListener("scroll", onWindScroll); // Cleanup
+    };
+  }, []); // Empty dependency array means this effect runs once
+
+  // Determine CSS classes based on visibility
+  const classes = `transition-opacity duration-1000 ${isVisible ? "opacity-100" : "opacity-0"}`;
 
   return (
-      <div ref={ref} className={classes}>
-          {children}
-      </div>
+    <div ref={ref} className={classes}>
+      {children} {/* Render children components */}
+    </div>
   );
 };
 
@@ -49,11 +54,21 @@ export const App = () => {
         <Skills />
       </RevealOnScroll>
       <RevealOnScroll>
-        <Work />
+        <Projects />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <Ncgames />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <Fanfinder />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <Weather />
       </RevealOnScroll>
       <RevealOnScroll>
         <Contact />
       </RevealOnScroll>
+
     </div>
   );
 };

@@ -13,8 +13,8 @@ export const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-7 px-5 divide-x-2 divide-[#248232]">
-          <div className="sm:text-right text-4xl font-bold sm:pt-10">
-            <p>Hi, I'm Oliver, nice to meet you. Take a look around.</p>
+          <div className="sm:text-right text-4xl font-bold sm:pt-7">
+            <p>Hello, i'm Oliver. Feel free to explore and learn more about my work.</p>
           </div>
           <div className="pl-6">
             <p className="pb-1">
