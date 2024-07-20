@@ -46,7 +46,7 @@ export const Home = () => {
     <p className='text-[#FCFFFC] py-4 max-w-[700px]'></p>
     <div>
 
-    <Link to="work" smooth={true} duration={500}>
+    <Link to="projects" smooth={true} duration={500}>
     <button className='text-[#FCFFFC] group border-2 px-6 py-3 flex items-center hover:bg-[#2BA84A] hover:border-[#2BA84A]'>View Work 
     <span className='group-hover:rotate-90 duration-300'>
     <HiArrowNarrowRight className='ml-3' />

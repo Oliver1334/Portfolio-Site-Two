@@ -2,15 +2,15 @@ import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
 
-export const Work = () => {
+export const Projects = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#410c0c] pt-12">
+    <div name="projects" className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-12">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-12">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-red-600">
-            Work
+          <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232]">
+            Projects
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
+          <p className="py-6">// Take a look at my most recent projects</p>
         </div>
 
 {/* Container */}
