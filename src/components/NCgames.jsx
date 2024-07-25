@@ -55,14 +55,14 @@ export const Ncgames = () => {
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-12">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232]">
+          <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232] ">
             NC Games
           </p>
-          <p className="py-6">// Take a look at my most recent projects</p>
+         
 
           {/* body and img div */}
-          <div className="flex flex-col md:flex-row items-center md:items-start py-6">
-            <p className="md:w-1/2">
+          <div className="flex flex-col md:flex-row items-center md:items-center pb-4 pt-4">
+            <p className="md:w-1/2 ">
               {" "}
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Molestias, soluta officiis porro at, saepe incidunt possimus
@@ -72,7 +72,7 @@ export const Ncgames = () => {
             </p>
 
             {/* image div */}
-            <div className="max-w-[600px] h-[400px] w-full m-auto relative px-8 group">
+            <div className="max-w-[600px] h-[400px] w-full m-auto relative px-8 group pt-6">
               <div
                 style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
                 className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
@@ -90,7 +90,7 @@ export const Ncgames = () => {
                   <div
                     key={slideIndex}
                     onClick={() => goToSlide(slideIndex)}
-                    className="text-2xl cursor-pointer hover:text-[#2BA84A]"
+                    className="text-2xl text-[#FCFFFC] cursor-pointer hover:text-[#2BA84A] hover:scale-125 duration-300 px-1"
                   >
                     <MdSquare />
                   </div>
@@ -99,7 +99,7 @@ export const Ncgames = () => {
             </div>
           </div>
           {/* buttons */}
-          <div className="flex flex-col md:flex-row justify-left gap-12 pt-8">
+          <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 pt-8">
             <button
               className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
