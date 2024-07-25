@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Ncgames } from "./components/NCgames";
-import { Fanfinder } from "./components/FanFinder";
+import { FanFinder } from "./components/FanFinder";
 import { Weather } from "./components/Weather";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -60,7 +60,7 @@ export const App = () => {
         <Ncgames />
       </RevealOnScroll>
       <RevealOnScroll>
-        <Fanfinder />
+        <FanFinder />
       </RevealOnScroll>
       <RevealOnScroll>
         <Weather />
