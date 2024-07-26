@@ -100,6 +100,10 @@ export const Weather = () => {
           </div>
           {/* buttons */}
           <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 pt-8">
+          <a href="https://nc-games1334.netlify.app/"
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
             <button
               className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
@@ -107,20 +111,20 @@ export const Weather = () => {
             >
               Deployed App
             </button>
+            </a>
+            <a href="https://github.com/Oliver1334/WeatherApp"
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
             <button
               className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   "
             >
-              Frontend Repo
+              Github Repo
             </button>
-            <button
-              className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
-                  text-[#FCFFFC] group border-2 px-6 py-3 flex
-                  "
-            >
-              Backend Repo
-            </button>
+            </a>
+            
           </div>
         </div>
       </div>

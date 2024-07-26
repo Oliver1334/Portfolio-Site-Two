@@ -100,13 +100,22 @@ export const FanFinder = () => {
           </div>
           {/* buttons */}
           <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 pt-8">
+          <a href="https://northcoders.com/projects/apr-2023/fanfinder"
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
             <button
               className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   "
             >
-              Deployed App
+              Video Demo
             </button>
+            </a>
+            <a href="https://github.com/Oliver1334/fanfinder-fe"
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
             <button
               className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
@@ -114,6 +123,11 @@ export const FanFinder = () => {
             >
               Frontend Repo
             </button>
+            </a>
+            <a href="https://github.com/jbhall4291/fan-finder-backend"
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
             <button
               className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
@@ -121,6 +135,7 @@ export const FanFinder = () => {
             >
               Backend Repo
             </button>
+            </a>
           </div>
         </div>
       </div>
