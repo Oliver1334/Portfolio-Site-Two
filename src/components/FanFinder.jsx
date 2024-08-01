@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import ncgamesimg from "../assets/ncgames.png";
-import realEstate from "../assets/realestate.jpg";
-import workImg from "../assets/workImg.jpeg";
+import fanfinder1 from "../assets/fanfinder1.png";
+import fanfinder2 from "../assets/fanfinder2.png";
+import fanfinder3 from "../assets/fanfinder3.png";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { MdSquare } from "react-icons/md";
 
 export const FanFinder = () => {
   const slides = [
-    { src: ncgamesimg },
-    { src: realEstate },
-    { src: workImg },
+    { src: fanfinder1 },
+    { src: fanfinder2 },
+    { src: fanfinder3 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,14 +62,24 @@ export const FanFinder = () => {
 
           {/* body and img div */}
           <div className="flex flex-col md:flex-row items-center md:items-center pb-4 pt-4">
-            <p className="md:w-1/2 ">
-              {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, soluta officiis porro at, saepe incidunt possimus
-              impedit consequatur delectus minus dolorem! Quia fugiat quidem ab
-              sit ipsa at rerum, veritatis neque illo debitis, facilis
-              necessitatibus blanditiis, placeat labore architecto consequuntur.
+            <div className="flex flex-col md:w-1/2 ">
+            <p >
+              
+              Fan Finder is a mobile app created with React Native. It was designed to help music enthusiasts discover upcoming local gigs and connect with fellow fans through gig-specific forums or chat. Developed by a team of four, this project utilises the MERN stack and was completed as part of our final Northcoders bootcamp challenge, where we pitched, planned, built, and deployed the app in just under two weeks.
             </p>
+            
+
+            <p>Technologies used:</p>
+            <ul>
+              <li>JavaScript</li>
+              <li>React Native</li>
+              <li>Node.js</li>
+              <li>MongoDB</li>
+              <li>Express.js</li>
+              <li>Jest</li>
+            </ul>
+            </div>
+
 
             {/* image div */}
             <div className="max-w-[600px] h-[400px] w-full m-auto relative px-8 group pt-6">
