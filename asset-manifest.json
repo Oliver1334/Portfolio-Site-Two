@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-site-two/static/css/main.12808a6c.css",
+    "main.js": "/portfolio-site-two/static/js/main.3eed776e.js",
+    "static/media/realestate.jpg": "/portfolio-site-two/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "static/media/ncgames.png": "/portfolio-site-two/static/media/ncgames.7d2d64f9c34fdd70e212.png",
+    "static/media/postgresql.png": "/portfolio-site-two/static/media/postgresql.2544a8a37554b093465a.png",
+    "static/media/workImg.jpeg": "/portfolio-site-two/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/react.png": "/portfolio-site-two/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/git.png": "/portfolio-site-two/static/media/git.61801ecb62dcedcdf1c6.png",
+    "static/media/node.png": "/portfolio-site-two/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/html.png": "/portfolio-site-two/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/portfolio-site-two/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/portfolio-site-two/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/express.png": "/portfolio-site-two/static/media/express.0cb7204e902bbe502151.png",
+    "static/media/jest.png": "/portfolio-site-two/static/media/jest.a88d0ca00c80e71d0476.png",
+    "static/media/javascript.png": "/portfolio-site-two/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/portfolio-site-two/index.html",
+    "main.12808a6c.css.map": "/portfolio-site-two/static/css/main.12808a6c.css.map",
+    "main.3eed776e.js.map": "/portfolio-site-two/static/js/main.3eed776e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12808a6c.css",
+    "static/js/main.3eed776e.js"
+  ]
+}
