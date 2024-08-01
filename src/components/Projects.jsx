@@ -1,6 +1,7 @@
 import React from "react";
 
 import ncgamesimg from "../assets/ncgames.png"
+import fanFinder from "../assets/fanfinder.png"
 import { Link } from "react-scroll";
 
 export const Projects = () => {
@@ -37,7 +38,7 @@ export const Projects = () => {
                   <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   ">
-                    Read More...
+                    Learn More...
                   </button>
                 </Link>
                
@@ -45,25 +46,25 @@ export const Projects = () => {
             </div>
           </div>
             {/* Grid Project Card 2*/}
-            <div className=" bg-[#2D3A3A] flex flex-col justify-between hover:scale-105 transition-transform duration-300">
+            <div className=" bg-[#2D3A3A] flex flex-col justify-between hover:scale-105 transition-transform duration-300 ">
             
             {/* Image */}
-            <img src={ncgamesimg} alt="NC Games" className="w-full p-2 pb-3 object-cover"/>
+            <img src={fanFinder} alt="Fan Finder" className="w-full p-2 pb-3 object-cover"/>
 
             {/* Content */}
-            <div className="flex flex-col justify-between flex-grow px-3 pb-3  ">
+            <div className="flex flex-col justify-between flex-grow px-3 pb-3 ">
               <span className="text-2xl font-bold text-[#FCFFFC] tracking-wider ">
                 Fan Finder
               </span>
-              <p className="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quia accusamus sequi laboriosam numquam ea inventore vero eligendi incidunt doloremque.</p>
+              <p className="">A social networking app for iOS and Android that uses location-based features, developed with React Native.</p>
 
               {/* button */ }
-              <div className="pt-8 flex justify-center">
+              <div className="pt-12 flex justify-center">
               <Link to="fanfinder" smooth={true} duration={500}>
                   <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   ">
-                    Read More...
+                    Learn More...
                   </button>
                 </Link>
                
@@ -89,7 +90,7 @@ export const Projects = () => {
                   <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   ">
-                    Read More...
+                    Learn More...
                   </button>
                 </Link>
                
