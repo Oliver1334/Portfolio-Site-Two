@@ -1,15 +1,19 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import ncgamesimg from "../assets/ncgames.png";
-import realEstate from "../assets/realestate.jpg";
-import workImg from "../assets/workImg.jpeg";
+import ncgamesimg1 from "../assets/ncgames1.png";
+import ncgamesimg2 from "../assets/ncgames2.png";
+import ncgamesimg3 from "../assets/ncgames3.png";
+import ncgamesimg4 from "../assets/ncgames4.png";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { MdSquare } from "react-icons/md";
 
 export const Ncgames = () => {
   const slides = [
     { src: ncgamesimg },
-    { src: realEstate },
-    { src: workImg },
+    { src: ncgamesimg1 },
+    { src: ncgamesimg2 },
+    { src: ncgamesimg3 },
+    { src: ncgamesimg4 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,15 +66,24 @@ export const Ncgames = () => {
 
           {/* body and img div */}
           <div className="flex flex-col md:flex-row items-center md:items-center pb-4 pt-4">
-            <p className="md:w-1/2 ">
-              {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, soluta officiis porro at, saepe incidunt possimus
-              impedit consequatur delectus minus dolorem! Quia fugiat quidem ab
-              sit ipsa at rerum, veritatis neque illo debitis, facilis
-              necessitatibus blanditiis, placeat labore architecto consequuntur.
+          <div className="flex flex-col md:w-1/2 ">
+            <p >
+            NC-Games is a board game review aggregation application that enables users to sign in, view, vote on, and comment on reviews, as well as post and delete their own comments. The reviews and user interactions are managed through my own backend and PostgreSQL database. This project was developed as part of the comprehensive Northcoders Full-Stack Software Developer Bootcamp, with the objective of seamlessly integrating my front-end and back-end skills into a cohesive application.
             </p>
+            
 
+            <p>Technologies used:</p>
+            <ul>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>Express.js</li>
+              <li>Jest</li>
+              <li>CSS</li>
+
+            </ul>
+            </div>
             {/* image div */}
             <div className="max-w-[600px] h-[400px] w-full m-auto relative px-8 group pt-6">
               <div
