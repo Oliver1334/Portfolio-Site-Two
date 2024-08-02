@@ -1,6 +1,7 @@
 import React from "react";
 
 import ncgamesimg from "../assets/ncgames.png"
+import ncgameslogo from "../assets/nclogo3.png"
 import fanFinder from "../assets/fanfinder.png"
 import { Link } from "react-scroll";
 
@@ -23,14 +24,14 @@ export const Projects = () => {
           <div className=" bg-[#2D3A3A] flex flex-col justify-between hover:scale-105 transition-transform duration-300">
             
             {/* Image */}
-            <img src={ncgamesimg} alt="NC Games" className="w-full p-2 pb-3 object-cover"/>
+            <img src={ncgameslogo} alt="NC Games" className="w-full p-2 pb-3 object-cover"/>
 
             {/* Content */}
             <div className="flex flex-col justify-between flex-grow px-3 pb-3  ">
               <span className="text-2xl font-bold text-[#FCFFFC] tracking-wider ">
                 NC Games
               </span>
-              <p className="pt-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quia accusamus sequi laboriosam numquam ea inventore vero eligendi incidunt doloremque.</p>
+              <p className="pt-1">NC Games is a board game review aggregation app allowing users to view, vote and comment on reviews amongst other features.</p>
 
               {/* button */ }
               <div className="pt-8 flex justify-center">
