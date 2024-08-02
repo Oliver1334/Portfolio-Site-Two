@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import ncgamesimg from "../assets/ncgames.png";
-import realEstate from "../assets/realestate.jpg";
-import workImg from "../assets/workImg.jpeg";
+import weatherappimg1 from "../assets/weatherapp2.png";
+import weatherappimg2 from "../assets/weatherapp3.png";
+import weatherappimg3 from "../assets/weatherapp4.png";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { MdSquare } from "react-icons/md";
 
 export const Weather = () => {
   const slides = [
-    { src: ncgamesimg },
-    { src: realEstate },
-    { src: workImg },
+    { src: weatherappimg1 },
+    { src: weatherappimg2 },
+    { src: weatherappimg3 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,14 +62,20 @@ export const Weather = () => {
 
           {/* body and img div */}
           <div className="flex flex-col md:flex-row items-center md:items-center pb-4 pt-4">
-            <p className="md:w-1/2 ">
-              {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestias, soluta officiis porro at, saepe incidunt possimus
-              impedit consequatur delectus minus dolorem! Quia fugiat quidem ab
-              sit ipsa at rerum, veritatis neque illo debitis, facilis
-              necessitatibus blanditiis, placeat labore architecto consequuntur.
+          <div className="flex flex-col md:w-1/2 ">
+            <p >
+              This Weather Forecast Application provides real-time weather data, including current temperature, humidity, wind speed, and forecasts for various locations. It features a responsive design with a modern interface, including search functionality for users to find weather information by city.
             </p>
+            
+
+            <p>Technologies used:</p>
+            <ul>
+              <li>TypeScript</li>
+              <li>ReactJS</li>
+              <li>TailwindCSS</li>
+              <li>OpenWeather API</li>
+            </ul>
+            </div>
 
             {/* image div */}
             <div className="max-w-[600px] h-[400px] w-full m-auto relative px-8 group pt-6">
@@ -100,7 +106,7 @@ export const Weather = () => {
           </div>
           {/* buttons */}
           <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 pt-8">
-          <a href="https://nc-games1334.netlify.app/"
+          <a href="https://weather-app-virid-alpha.vercel.app/"
               target="_blank" 
               rel="noopener noreferrer"
               >
