@@ -65,7 +65,7 @@ export const Ncgames = () => {
 
           {/* body and img div */}
           <div className="flex flex-col md:flex-row md:items-center pb-4 pt-4 md:py-6 ">
-            <div className="flex flex-col w-full md:w-1/2 ">
+            <div className="flex flex-col w-full md:w-1/2">
               <p className="pb-4">
                 NC-Games is a board game review aggregation application that
                 enables users to sign in, view, vote on, and comment on reviews,
@@ -77,7 +77,7 @@ export const Ncgames = () => {
                 front-end and back-end skills into a cohesive application.
               </p>
 
-              <p className="pb-2 font-bold inline  text-[#2BA84A] ">
+              <p className="pb-2 font-bold inline  text-[#2BA84A]">
                 Technologies used:
               </p>
 
