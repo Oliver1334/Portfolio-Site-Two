@@ -77,18 +77,20 @@ export const Ncgames = () => {
                 front-end and back-end skills into a cohesive application.
               </p>
 
-              <p className="pb-2 font-bold inline  text-[#2BA84A] ">Technologies used:</p>
+              <p className="pb-2 font-bold inline  text-[#2BA84A] ">
+                Technologies used:
+              </p>
 
               <footer>
-              <ul className="grid grid-cols-4 gap-2 lg:grid-cols-4 md:grid-cols-3">
-        <li>Javascript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>PostgreSQL</li>
-        <li>Express.js</li>
-        <li>Jest</li>
-        <li>CSS</li>
-      </ul>
+                <ul className="grid grid-cols-4 gap-2 lg:grid-cols-4 md:grid-cols-3">
+                  <li>Javascript</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>PostgreSQL</li>
+                  <li>Express.js</li>
+                  <li>Jest</li>
+                  <li>CSS</li>
+                </ul>
               </footer>
             </div>
             {/* image div */}
