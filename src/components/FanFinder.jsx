@@ -62,7 +62,7 @@ export const FanFinder = () => {
           {/* body and img div */}
           <div className="flex flex-col md:flex-row md:items-center pb-4 pt-4 md:py-6 ">
             <div className="flex flex-col w-full md:w-1/2 ">
-              <p className="pb-4">
+              <p className="md:pb-12 pb-4">
                 Fan Finder is a mobile app created with React Native. It was
                 designed to help music enthusiasts discover upcoming local gigs
                 and connect with fellow fans through gig-specific forums or
