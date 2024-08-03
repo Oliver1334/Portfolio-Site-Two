@@ -1,26 +1,36 @@
 {
   "files": {
-    "main.css": "/Portfolio-Site-Two/static/css/main.12808a6c.css",
-    "main.js": "/Portfolio-Site-Two/static/js/main.3e4aef25.js",
-    "static/media/realestate.jpg": "/Portfolio-Site-Two/static/media/realestate.44fd19f4c6872731149c.jpg",
+    "main.css": "/Portfolio-Site-Two/static/css/main.9078d16c.css",
+    "main.js": "/Portfolio-Site-Two/static/js/main.fb1a9d97.js",
+    "static/media/ncgames4.png": "/Portfolio-Site-Two/static/media/ncgames4.b990d9cc3ddf854410ca.png",
     "static/media/ncgames.png": "/Portfolio-Site-Two/static/media/ncgames.7d2d64f9c34fdd70e212.png",
+    "static/media/fanfinder1.png": "/Portfolio-Site-Two/static/media/fanfinder1.5a4b4ca6e1804ac70139.png",
+    "static/media/weatherapp2.png": "/Portfolio-Site-Two/static/media/weatherapp2.a0754d97863a440fd942.png",
+    "static/media/fanfinder2.png": "/Portfolio-Site-Two/static/media/fanfinder2.0327d63a646d3f2020df.png",
+    "static/media/weatherapp3.png": "/Portfolio-Site-Two/static/media/weatherapp3.38bf960b97d48fb8ae22.png",
+    "static/media/weatherapp4.png": "/Portfolio-Site-Two/static/media/weatherapp4.b4af44946553e26463be.png",
+    "static/media/fanfinder.png": "/Portfolio-Site-Two/static/media/fanfinder.9eb100aae5d3e1e9c685.png",
+    "static/media/nclogo3.png": "/Portfolio-Site-Two/static/media/nclogo3.9f27561748b8277efc56.png",
+    "static/media/fanfinder3.png": "/Portfolio-Site-Two/static/media/fanfinder3.8cd4bdd82739fceade54.png",
+    "static/media/ncgames3.png": "/Portfolio-Site-Two/static/media/ncgames3.c820dad610809369c45a.png",
+    "static/media/ncgames2.png": "/Portfolio-Site-Two/static/media/ncgames2.51ddcfca42a26a50e4b7.png",
     "static/media/postgresql.png": "/Portfolio-Site-Two/static/media/postgresql.2544a8a37554b093465a.png",
-    "static/media/workImg.jpeg": "/Portfolio-Site-Two/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/Portfolio-Site-Two/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/git.png": "/Portfolio-Site-Two/static/media/git.61801ecb62dcedcdf1c6.png",
     "static/media/node.png": "/Portfolio-Site-Two/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/html.png": "/Portfolio-Site-Two/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/ncgames1.png": "/Portfolio-Site-Two/static/media/ncgames1.d5d6db900231a3b0c26a.png",
     "static/media/tailwind.png": "/Portfolio-Site-Two/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/Portfolio-Site-Two/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/express.png": "/Portfolio-Site-Two/static/media/express.0cb7204e902bbe502151.png",
     "static/media/jest.png": "/Portfolio-Site-Two/static/media/jest.a88d0ca00c80e71d0476.png",
     "static/media/javascript.png": "/Portfolio-Site-Two/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/Portfolio-Site-Two/index.html",
-    "main.12808a6c.css.map": "/Portfolio-Site-Two/static/css/main.12808a6c.css.map",
-    "main.3e4aef25.js.map": "/Portfolio-Site-Two/static/js/main.3e4aef25.js.map"
+    "main.9078d16c.css.map": "/Portfolio-Site-Two/static/css/main.9078d16c.css.map",
+    "main.fb1a9d97.js.map": "/Portfolio-Site-Two/static/js/main.fb1a9d97.js.map"
   },
   "entrypoints": [
-    "static/css/main.12808a6c.css",
-    "static/js/main.3e4aef25.js"
+    "static/css/main.9078d16c.css",
+    "static/js/main.fb1a9d97.js"
   ]
 }
