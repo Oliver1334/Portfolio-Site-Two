@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Hamburger from 'hamburger-react'
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -18,27 +17,27 @@ export const Navbar = () => {
 
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
+          <Link to="home" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
             Home
           </Link>
         </li>
         <li>
-        <Link to="about" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
+        <Link to="about" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
             About
           </Link>
         </li>
         <li>
-        <Link to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
+        <Link to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
             Skills
           </Link>
         </li>
         <li>
-        <Link to="projects" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
+        <Link to="projects" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
             Projects
           </Link>
         </li>
         <li>
-        <Link to="contact" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]" >
+        <Link to="contact" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
             Contact
           </Link>
         </li>
@@ -55,27 +54,27 @@ export const Navbar = () => {
         }`} //template literal to access isOpen here for ternary operator
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300">
             Home
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
+          <Link onClick={handleClick} to="about" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300">
             About
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
+          <Link onClick={handleClick} to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300">
             Skills
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="projects" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
+          <Link onClick={handleClick} to="projects" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300">
             Projects
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A]">
+          <Link onClick={handleClick} to="contact" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300 ">
             Contact
           </Link>
         </li>
@@ -102,6 +101,16 @@ export const Navbar = () => {
               href="mailto:oliver.taylor1334@outlook.com"
             >
               Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#246682]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              target="_blank"
+              href="https://www.linkedin.com/in/oliver-taylor-297382366/"
+              rel="noopener noreferrer"
+            >
+              LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
         </ul>
