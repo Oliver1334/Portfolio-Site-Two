@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Hamburger from 'hamburger-react'
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
@@ -102,6 +102,16 @@ export const Navbar = () => {
               href="mailto:oliver.taylor1334@outlook.com"
             >
               Email <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="px-4 w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#246682]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              target="_blank"
+              href="https://www.linkedin.com/in/oliver-taylor-297382366/"
+              rel="noopener noreferrer"
+            >
+              LinkedIn <FaLinkedin size={30} />
             </a>
           </li>
         </ul>
