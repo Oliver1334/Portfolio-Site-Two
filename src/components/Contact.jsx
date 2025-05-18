@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiOutlineMail } from "react-icons/hi";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Contact = () => {
   // states to keep track of form inputs
@@ -85,6 +85,17 @@ export const Contact = () => {
             >
               <HiOutlineMail size={30} />
             </a>
+            <a
+              className="text-white border-2 hover:bg-[#246682] hover:border-[#246682] duration-300 px-4 py-3 my-4 flex items-center"
+              target="_blank"
+              href="https://www.linkedin.com/in/oliver-taylor-297382366/"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin size={30} />
+            </a>
+
+
+            
           </div>
 
           <p className="text-[#FCFFFC] pb-4 ">
