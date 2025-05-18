@@ -37,7 +37,7 @@ export const Projects = () => {
               {/* button */ }
               <div className="pt-8 flex justify-center">
               <Link to="ncgames" smooth={true} duration={500}>
-                  <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
+                  <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   ">
                     Learn More...
@@ -63,7 +63,7 @@ export const Projects = () => {
               {/* button */ }
               <div className="pt-12 flex justify-center">
               <Link to="fanfinder" smooth={true} duration={500}>
-                  <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
+                  <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   ">
                     Learn More...
@@ -89,7 +89,7 @@ export const Projects = () => {
               {/* button */ }
               <div className="pt-12 flex justify-center">
               <Link to="weather" smooth={true} duration={500}>
-                  <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
+                  <button className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   ">
                     Learn More...

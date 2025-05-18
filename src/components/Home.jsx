@@ -47,7 +47,7 @@ export const Home = () => {
     <div>
 
     <Link to="projects" smooth={true} duration={500}>
-    <button className='text-[#FCFFFC] group border-2  px-6 py-3 flex items-center hover:bg-[#2BA84A] hover:border-[#2BA84A]'>View Work 
+    <button className='text-[#FCFFFC] group border-2  px-6 py-3 flex items-center hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300'>View Work 
     <span className='group-hover:animate-ping duration-100'>
     <BiSolidDownArrow className='ml-2' />
     </span>
