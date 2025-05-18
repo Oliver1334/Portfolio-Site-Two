@@ -71,7 +71,7 @@ export const Contact = () => {
           </p>
           <div className="flex justify-start w-full max-w-[600px] space-x-4 mt-3">
             <a
-              className="text-white border-2 hover:bg-[#2D3A3A] hover:border-[#2D3A3A] px-4 py-3 my-4 flex items-center "
+              className="text-white border-2 hover:bg-[#2D3A3A] hover:border-[#2D3A3A] duration-300 px-4 py-3 my-4 flex items-center "
               href="https://github.com/Oliver1334"
               target="_blank" // This will open the link in a new tab
               rel="noopener noreferrer"
@@ -80,7 +80,7 @@ export const Contact = () => {
               <FaGithub size={30} />{" "}
             </a>
             <a
-              className="text-white border-2 hover:bg-[#248232] hover:border-[#248232] px-4 py-3 my-4 flex items-center"
+              className="text-white border-2 hover:bg-[#248232] hover:border-[#248232] duration-300 px-4 py-3 my-4 flex items-center"
               href="mailto:oliver.taylor1334@outlook.com"
             >
               <HiOutlineMail size={30} />
@@ -119,7 +119,7 @@ export const Contact = () => {
         <p className="text-[#FCFFFC]">Character count: {message.length}/1500</p>
         {error && <p className="text-red-500 mb-2">{error}</p>}
         <button
-          className="text-white border-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] px-4 py-3 my-8 mx-auto flex items-center"
+          className="text-white border-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 px-4 py-3 my-8 mx-auto flex items-center"
           type="submit"
         >
           {" "}
