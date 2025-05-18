@@ -92,7 +92,7 @@ export const Weather = () => {
                 <BsChevronCompactLeft onClick={prevSlide} size={30} />
               </div>
               {/* right arrow */}
-              <div className="hidden group-hover:block duration-300 absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+              <div className="opacity-0 group-hover:opacity-100 translate-x-[10px] group-hover:translate-x-0 transition-all duration-1000 absolute top-[50%] translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactRight onClick={nextSlide} size={30} />
               </div>
               <div className="flex top-4 justify-center py-2 ">
@@ -116,7 +116,7 @@ export const Weather = () => {
               rel="noopener noreferrer"
             >
               <button
-                className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
+                className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   "
               >
@@ -129,7 +129,7 @@ export const Weather = () => {
               rel="noopener noreferrer"
             >
               <button
-                className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] 
+                className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
                   text-[#FCFFFC] group border-2 px-6 py-3 flex
                   "
               >
