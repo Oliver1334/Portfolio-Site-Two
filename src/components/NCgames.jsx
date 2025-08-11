@@ -129,8 +129,7 @@ export const Ncgames = () => {
             >
               <button
                 className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-6 py-3 flex
-                  "
+                  text-[#FCFFFC] group border-2 px-6 py-3 flex"
               >
                 Deployed App
               </button>
