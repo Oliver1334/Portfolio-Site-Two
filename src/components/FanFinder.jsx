@@ -117,7 +117,7 @@ export const FanFinder = () => {
           {/* buttons */}
           <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 lg:pt-8 md:pt-8 pt-12">
             <a
-              href="https://northcoders.com/projects/apr-2023/fanfinder"
+              href="https://www.youtube.com/watch?v=N_lc2a5umbo&ab_channel=Northcoders"
               target="_blank"
               rel="noopener noreferrer"
             >
