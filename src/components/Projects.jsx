@@ -215,7 +215,7 @@ export const Projects = () => {
         </button>
       </a>
 
-      <Link to="fanfinder" smooth={true} duration={500}>
+      <Link to="weather" smooth={true} duration={500}>
         <button
           className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
         >
@@ -232,7 +232,7 @@ export const Projects = () => {
   <div className="p-2">
     <img
       src={vocabGame}
-              alt="Weather App"
+              alt="Vocab Game"
       className="w-full h-48 object-cover border border-[#1E2929]"
     />
   </div>
@@ -276,7 +276,7 @@ export const Projects = () => {
         </button>
       </a>
 
-      <Link to="fanfinder" smooth={true} duration={500}>
+      <Link to="vocabGame" smooth={true} duration={500}>
         <button
           className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
         >
