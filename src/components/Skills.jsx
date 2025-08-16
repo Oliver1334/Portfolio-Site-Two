@@ -16,12 +16,12 @@ export const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full bg-[#040F0F] text-[#FCFFFC] pb-5 pt-10"
+      className="w-full bg-[#040F0F] text-[#FCFFFC] h-[130vh] pb-32 "
     >
       {/* container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-10">
+      <div name="skills-title" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-0 pb-32">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-[#248232] ">
+          <p  className="text-4xl font-bold inline border-b-4 border-[#248232] ">
             Skills
           </p>
           <p className="py-4">
