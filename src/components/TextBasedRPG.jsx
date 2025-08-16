@@ -56,24 +56,33 @@ export const TextBasedRPG = () => {
       className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-12"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-12">
-        <div  className="pb-8">
+        <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232] ">
-          The Crypts of Morn'Dul
+            The Crypts of Morn'Dul
           </p>
 
           {/* body and img div */}
           <div className="flex flex-col md:flex-row md:items-center pb-4 pt-4 md:py-6 ">
             <div className="flex flex-col w-full md:w-1/2">
               <p className="md:pb-12 pb-4">
-              A text-based role-playing game built in C# and played in the console, featuring turn-based combat, character progression, and minimal ASCII art for a classic text-adventure feel. Players can explore, battle enemies, and grow stronger through an interactive story loop that captures the retro RPG experience. Future development aims to bring the game to the browser using Blazor WebAssembly, making it accessible directly online without downloads.
+                A text-based role-playing game built in C# and played in the
+                console, featuring turn-based combat, character progression, and
+                minimal ASCII art for a classic text-adventure feel. Players can
+                explore, battle enemies, and grow stronger through an
+                interactive story loop that captures the retro RPG experience.
+                Future development aims to bring the game to the browser using
+                Blazor WebAssembly, making it accessible directly online without
+                downloads.
               </p>
 
               <footer>
                 <ul className="flex flex-wrap gap-2 mb-4">
+                  <li className="bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full shadow-md">
+                    In Development
+                  </li>
                   <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
                     C#
                   </li>
-                  
                 </ul>
               </footer>
             </div>
@@ -107,7 +116,6 @@ export const TextBasedRPG = () => {
           </div>
           {/* buttons */}
           <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 lg:pt-8 md:pt-8 pt-12">
-            
             {/* button go here */}
           </div>
         </div>
