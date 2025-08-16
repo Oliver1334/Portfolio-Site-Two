@@ -72,17 +72,26 @@ export const FanFinder = () => {
                 deployed the app in just under two weeks.
               </p>
 
-              <p className="pb-2 font-bold inline  text-[#2BA84A]">
-                Technologies used:
-              </p>
               <footer>
-                <ul className="grid grid-cols-4 gap-2 lg:grid-cols-3 md:grid-cols-3">
-                  <li>JavaScript</li>
-                  <li>React Native</li>
-                  <li>Node.js</li>
-                  <li>MongoDB</li>
-                  <li>Express.js</li>
-                  <li>Jest</li>
+                <ul className="flex flex-wrap gap-2 mb-4">
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    JavaScript
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    React Native
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    Node.js
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    MongoDB
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    Express.js
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    Jest
+                  </li>
                 </ul>
               </footer>
             </div>

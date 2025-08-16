@@ -5,7 +5,7 @@ import weatherappimg3 from "../assets/weatherapp4.png";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { MdSquare } from "react-icons/md";
 
-export const Weather = () => {
+export const VocabGame = () => {
   const slides = [
     { src: weatherappimg1 },
     { src: weatherappimg2 },
@@ -76,7 +76,7 @@ export const Weather = () => {
                     TypeScript
                   </li>
                   <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
-                    React
+                    ReactJS
                   </li>
                   <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
                     TailwindCSS
