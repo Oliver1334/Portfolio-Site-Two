@@ -54,11 +54,11 @@ export const Ncgames = () => {
 
   return (
     <div
-      name="ncgames"
-      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-12"
+      
+      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-32 h-[130vh] "
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full pt-12">
-        <div className="pb-8">
+      <div name="ncgames" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full pt-32">
+        <div className="pb-8 pt-32">
           <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232] ">
             NC Games
           </p>
