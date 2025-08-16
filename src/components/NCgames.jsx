@@ -53,11 +53,11 @@ export const Ncgames = () => {
   }, [currentIndex, nextSlide]);
 
   return (
-    <div
-      
-      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-32 h-[130vh] "
-    >
-      <div name="ncgames" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full pt-32">
+    <div className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-32 h-[130vh] ">
+      <div
+        name="ncgames"
+        className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full h-full pt-32"
+      >
         <div className="pb-8 pt-32">
           <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232] ">
             NC Games
@@ -77,19 +77,29 @@ export const Ncgames = () => {
                 front-end and back-end skills into a cohesive application.
               </p>
 
-              <p className="pb-2 font-bold inline  text-[#2BA84A]">
-                Technologies used:
-              </p>
-
               <footer>
-                <ul className="grid grid-cols-4 gap-2 lg:grid-cols-4 md:grid-cols-3">
-                  <li>Javascript</li>
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>PostgreSQL</li>
-                  <li>Express.js</li>
-                  <li>Jest</li>
-                  <li>CSS</li>
+                <ul className="flex flex-wrap gap-2 mb-4">
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    JavaScript
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    React
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    Node.js
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    PostgreSQL
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    Express.js
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    Jest
+                  </li>
+                  <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+                    CSS
+                  </li>
                 </ul>
               </footer>
             </div>

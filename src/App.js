@@ -7,6 +7,7 @@ import { Projects } from "./components/Projects";
 import { Ncgames } from "./components/NCgames";
 import { FanFinder } from "./components/FanFinder";
 import { Weather } from "./components/Weather";
+import { VocabGame } from "./components/VocabGame";
 import React, { useEffect, useRef, useState } from "react";
 
 const RevealOnScroll = ({ children }) => {
@@ -64,6 +65,9 @@ export const App = () => {
       </RevealOnScroll>
       <RevealOnScroll>
         <Weather />
+      </RevealOnScroll>
+      <RevealOnScroll>
+        <VocabGame />
       </RevealOnScroll>
       <RevealOnScroll>
         <Contact />
