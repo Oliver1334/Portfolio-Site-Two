@@ -325,7 +325,7 @@ export const Projects = () => {
     {/* Buttons */}
     <div className="mt-auto flex flex-row justify-center space-x-4">
 
-      <Link to="fanfinder" smooth={true} duration={500}>
+      <Link to="textBased" smooth={true} duration={500}>
         <button
           className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
         >
