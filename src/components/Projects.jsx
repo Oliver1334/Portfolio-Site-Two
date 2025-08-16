@@ -2,6 +2,8 @@ import React from "react";
 import weatherappimg from "../assets/weatherapp2.png";
 import ncgameslogo from "../assets/nclogo3.png";
 import fanFinder from "../assets/fanfinder.png";
+import morndulimg from "../assets/morndulPig.jpg"
+import vocabGame from "../assets/vocabGameCover.png"
 import { Link } from "react-scroll";
 
 export const Projects = () => {
@@ -21,7 +23,7 @@ export const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 min-w-0">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 min-w-0 pb-32">
 
 {/* Project Card 1 */}
 <div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
@@ -229,7 +231,7 @@ export const Projects = () => {
   {/* Image */}
   <div className="p-2">
     <img
-      src={weatherappimg}
+      src={vocabGame}
               alt="Weather App"
       className="w-full h-48 object-cover border border-[#1E2929]"
     />
@@ -285,7 +287,7 @@ export const Projects = () => {
   </div>
 </div>
 
-{/* Project Card 4 */}
+{/* Project Card 5 */}
 <div className="relative bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
   {/* Ribbon Banner */}
   <div className="absolute top-4 left-[-40px] rotate-[-45deg] bg-yellow-500 text-black text-xs font-bold shadow-lg flex items-center justify-center px-12 py-2"
@@ -295,7 +297,7 @@ export const Projects = () => {
   {/* Image */}
   <div className="p-2">
     <img
-      src={weatherappimg}
+      src={morndulimg}
       alt="Vocabulary Learning Game"
       className="w-full h-48 object-cover border border-[#1E2929]"
     />
@@ -305,40 +307,23 @@ export const Projects = () => {
   <div className="flex flex-col flex-grow p-4">
     {/* Title */}
     <h3 className="text-2xl font-bold text-[#FCFFFC] tracking-wide mb-2">
-      Vocabulary Learning Game
+      Text-based RPG
     </h3>
 
     {/* Description */}
     <p className="text-gray-300 text-sm mb-3">
-      A terminal-based educational tool designed to help users learn and retain new vocabulary using a spaced repetition algorithm.
+    A C# console app featuring turn-based combat, character progression and minimal ASCII art for a classic text-adventure experience.
     </p>
 
     {/* Tech stack */}
     <div className="flex flex-wrap gap-2 mb-4">
       <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
-        Python
-      </span>
-      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
-        CSV
-      </span>
-      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
-        JSON
+        C#
       </span>
     </div>
 
     {/* Buttons */}
     <div className="mt-auto flex flex-row justify-center space-x-4">
-      <a
-        href="https://github.com/Oliver1334/Spaced_Repetition_Algorithm"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <button
-          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
-        >
-          Github Repo
-        </button>
-      </a>
 
       <Link to="fanfinder" smooth={true} duration={500}>
         <button
