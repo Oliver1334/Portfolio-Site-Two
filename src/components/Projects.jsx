@@ -25,7 +25,7 @@ export const Projects = () => {
 
 {/* Project Card 1 */}
 <div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
-  {/* Image with padding */}
+  {/* Image */}
   <div className="p-2">
     <img
       src={ncgameslogo}
@@ -59,7 +59,13 @@ export const Projects = () => {
         PostgreSQL
       </span>
       <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
-        TailwindCSS
+        CSS
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Express
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Jest
       </span>
     </div>
 
@@ -88,147 +94,265 @@ export const Projects = () => {
   </div>
 </div>
 
-          {/* Grid Project Card 2*/}
-          <div className=" bg-[#2D3A3A] flex flex-col justify-between hover:scale-105 transition-transform duration-300 ">
-            {/* Image */}
-            <img
-              src={fanFinder}
+{/* Project Card 2 */}
+<div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+  {/* Image */}
+  <div className="p-2">
+    <img
+      src={fanFinder}
               alt="Fan Finder"
-              className="w-full p-2 pb-3 object-cover"
-            />
+      className="w-full h-48 object-cover border border-[#1E2929]"
+    />
+  </div>
 
-            {/* Content */}
-            <div className="flex flex-col justify-between flex-grow px-3 pb-3 ">
-              <span className="text-2xl font-bold text-[#FCFFFC] tracking-wider ">
-                Fan Finder
-              </span>
-              <p className="pb-2">
-                A social networking app for iOS and Android that uses
-                location-based features, developed with React Native.
-              </p>
+  {/* Content */}
+  <div className="flex flex-col flex-grow p-4">
+    {/* Title */}
+    <h3 className="text-2xl font-bold text-[#FCFFFC] tracking-wide mb-2">
+    Fan Finder
+    </h3>
 
-              {/* buttons */}
-              <div className="pt-12 flex flex-row justify-center space-x-4">
-                <a
-                  href="https://www.youtube.com/watch?v=N_lc2a5umbo&ab_channel=Northcoders"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-4 py-3 flex
-                  "
-                  >
-                    Video Demo
-                  </button>
-                </a>
+    {/* Description */}
+    <p className="text-gray-300 text-sm mb-3">
+    A social networking app for iOS and Android that uses
+    location-based features, developed with React Native.
+    </p>
 
-                <Link to="fanfinder" smooth={true} duration={500}>
-                  <button
-                    className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-4 py-3 flex
-                  "
-                  >
-                    Learn More...
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/* Grid Project Card 3*/}
-          <div className=" bg-[#2D3A3A] flex flex-col justify-between hover:scale-105 transition-transform duration-300">
-            {/* Image */}
-            <img
-              src={weatherappimg}
+    {/* Tech stack */}
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        React Native
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Node.js
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        MongoDB
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Jest
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Express
+      </span>
+    </div>
+
+    {/* Buttons */}
+    <div className="mt-auto flex flex-row justify-center space-x-4">
+      <a
+        href="https://www.youtube.com/watch?v=N_lc2a5umbo&ab_channel=Northcoders"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Video Demo
+        </button>
+      </a>
+
+      <Link to="fanfinder" smooth={true} duration={500}>
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Learn More
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+{/* Project Card 3 */}
+<div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+  {/* Image */}
+  <div className="p-2">
+    <img
+      src={weatherappimg}
               alt="Weather App"
-              className="w-full p-2 pb-3 object-cover"
-            />
+      className="w-full h-48 object-cover border border-[#1E2929]"
+    />
+  </div>
 
-            {/* Content */}
-            <div className="flex flex-col justify-between flex-grow px-3 pb-3  ">
-              <span className="text-2xl font-bold text-[#FCFFFC] tracking-wider ">
-                Weather App
-              </span>
-              <p className="pb-3">
-                A web app built with React and Typescript to fetch and display
+  {/* Content */}
+  <div className="flex flex-col flex-grow p-4">
+    {/* Title */}
+    <h3 className="text-2xl font-bold text-[#FCFFFC] tracking-wide mb-2">
+    Weather App
+    </h3>
+
+    {/* Description */}
+    <p className="text-gray-300 text-sm mb-3">
+    A web app built with React and Typescript to fetch and display
                 weather data using the OpenWeather API.
-              </p>
+    </p>
 
-              {/* buttons */}
-              <div className="pt-12 flex flex-row justify-center space-x-4">
-                <a
-                  href="https://weather-app-virid-alpha.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-4 py-3 flex
-                  "
-                  >
-                    Deployed App
-                  </button>
-                </a>
-                <Link to="weather" smooth={true} duration={500}>
-                  <button
-                    className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-4 py-3 flex
-                  "
-                  >
-                    Learn More...
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
+    {/* Tech stack */}
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        React
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        TypeScript
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        TailwindCSS
+      </span>
+    </div>
 
-           {/* Grid Project Card 4*/}
-           <div className=" bg-[#2D3A3A] flex flex-col justify-between hover:scale-105 transition-transform duration-300">
-            {/* Image */}
-            <img
-              src={weatherappimg}
+    {/* Buttons */}
+    <div className="mt-auto flex flex-row justify-center space-x-4">
+      <a
+        href="https://weather-app-virid-alpha.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Deployed App
+        </button>
+      </a>
+
+      <Link to="fanfinder" smooth={true} duration={500}>
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Learn More
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+{/* Project Card 4 */}
+<div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+  {/* Image */}
+  <div className="p-2">
+    <img
+      src={weatherappimg}
               alt="Weather App"
-              className="w-full p-2 pb-3 object-cover"
-            />
+      className="w-full h-48 object-cover border border-[#1E2929]"
+    />
+  </div>
 
-            {/* Content */}
-            <div className="flex flex-col justify-between flex-grow px-3 pb-3  ">
-              <span className="text-2xl font-bold text-[#FCFFFC] tracking-wider ">
-                Weather App
-              </span>
-              <p className="pb-3">
-                A web app built with React and Typescript to fetch and display
-                weather data using the OpenWeather API.
-              </p>
+  {/* Content */}
+  <div className="flex flex-col flex-grow p-4">
+    {/* Title */}
+    <h3 className="text-2xl font-bold text-[#FCFFFC] tracking-wide mb-2">
+    Vocabulary Learning Game
+    </h3>
 
-              {/* buttons */}
-              <div className="pt-12 flex flex-row justify-center space-x-4">
-                <a
-                  href="https://weather-app-virid-alpha.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-4 py-3 flex
-                  "
-                  >
-                    Deployed App
-                  </button>
-                </a>
-                <Link to="weather" smooth={true} duration={500}>
-                  <button
-                    className="text-center mb-2 hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300 
-                  text-[#FCFFFC] group border-2 px-4 py-3 flex
-                  "
-                  >
-                    Learn More...
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
+    {/* Description */}
+    <p className="text-gray-300 text-sm mb-3">
+    A terminal-based educational tool designed to help users learn and retain new vocabulary using a spaced repetition algorithm.
+    </p>
 
+    {/* Tech stack */}
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Python
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        CSV
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        JSON
+      </span>
+    </div>
+
+    {/* Buttons */}
+    <div className="mt-auto flex flex-row justify-center space-x-4">
+      <a
+        href="https://github.com/Oliver1334/Spaced_Repetition_Algorithm"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Github Repo
+        </button>
+      </a>
+
+      <Link to="fanfinder" smooth={true} duration={500}>
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Learn More
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+{/* Project Card 4 */}
+<div className="relative bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+  {/* Ribbon Banner */}
+  <div className="absolute top-4 left-[-40px] rotate-[-45deg] bg-yellow-500 text-black text-xs font-bold shadow-lg flex items-center justify-center px-12 py-2"
+     style={{ transform: 'translate(-5px, 10px) rotate(-45deg)' }}>
+  In Development
+</div>
+  {/* Image */}
+  <div className="p-2">
+    <img
+      src={weatherappimg}
+      alt="Vocabulary Learning Game"
+      className="w-full h-48 object-cover border border-[#1E2929]"
+    />
+  </div>
+
+  {/* Content */}
+  <div className="flex flex-col flex-grow p-4">
+    {/* Title */}
+    <h3 className="text-2xl font-bold text-[#FCFFFC] tracking-wide mb-2">
+      Vocabulary Learning Game
+    </h3>
+
+    {/* Description */}
+    <p className="text-gray-300 text-sm mb-3">
+      A terminal-based educational tool designed to help users learn and retain new vocabulary using a spaced repetition algorithm.
+    </p>
+
+    {/* Tech stack */}
+    <div className="flex flex-wrap gap-2 mb-4">
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        Python
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        CSV
+      </span>
+      <span className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
+        JSON
+      </span>
+    </div>
+
+    {/* Buttons */}
+    <div className="mt-auto flex flex-row justify-center space-x-4">
+      <a
+        href="https://github.com/Oliver1334/Spaced_Repetition_Algorithm"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Github Repo
+        </button>
+      </a>
+
+      <Link to="fanfinder" smooth={true} duration={500}>
+        <button
+          className="text-sm font-medium text-[#FCFFFC] border-2 border-[#FCFFFC] px-4 py-2 rounded-none hover:bg-[#2BA84A] hover:border-[#2BA84A] duration-300"
+        >
+          Learn More
+        </button>
+      </Link>
+    </div>
+  </div>
+</div>
+
+     
+         
           
 
           {/*container end*/}
