@@ -13,7 +13,7 @@ export const Projects = () => {
       className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] h-[150vh] pt-32 pb-32"
     >
       <div  className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-12">
-        <div name="projects" className="pb-4 pt-32">
+        <div name="projects" className=" pt-32">
           <p  className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232]">
             Projects
           </p>
@@ -23,7 +23,7 @@ export const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6 min-w-0 pb-32">
+        <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 min-w-0 pb-32">
 
 {/* Project Card 1 */}
 <div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
@@ -74,7 +74,7 @@ export const Projects = () => {
     {/* Buttons */}
     <div className="mt-auto flex flex-row justify-center space-x-4">
       <a
-        href="https://nc-games1334.netlify.app/"
+        href="https://nodicegames.netlify.app/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -288,7 +288,7 @@ export const Projects = () => {
 </div>
 
 {/* Project Card 5 */}
-<div className="relative bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+<div className="relative  bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
   {/* Ribbon Banner */}
   <div className="absolute top-4 left-[-40px] rotate-[-45deg] bg-yellow-500 text-black text-xs font-bold shadow-lg flex items-center justify-center px-12 py-2"
      style={{ transform: 'translate(-5px, 10px) rotate(-45deg)' }}>
