@@ -25,7 +25,7 @@ export const Skills = () => {
             Skills
           </p>
           <p className="py-4">
-            // Technologies i am skilled and experienced in include:
+            {"// Technologies i am skilled and experienced in include:"}
           </p>
         </div>
 
