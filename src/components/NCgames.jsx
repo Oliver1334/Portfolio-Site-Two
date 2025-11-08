@@ -133,7 +133,7 @@ export const Ncgames = () => {
           {/* buttons */}
           <div className="flex flex-row justify-center md:justify-start space-x-4 md:gap-6 lg:pt-8 md:pt-8 pt-12">
             <a
-              href="https://nc-games1334.netlify.app/"
+              href="https://nodicegames.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
