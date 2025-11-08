@@ -99,7 +99,7 @@ export const Contact = () => {
           </div>
 
           <p className="text-[#FCFFFC] pb-4 ">
-            // Submit the form below to get in touch!
+            {"// Submit the form below to get in touch!"}
           </p>
         </div>
         <input
