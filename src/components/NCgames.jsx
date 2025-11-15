@@ -1,19 +1,17 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import ncgamesimg from "../assets/ncgames.png";
-import ncgamesimg1 from "../assets/ncgames1.png";
-import ncgamesimg2 from "../assets/ncgames2.png";
-import ncgamesimg3 from "../assets/ncgames3.png";
-import ncgamesimg4 from "../assets/ncgames4.png";
+import ndgimg1 from "../assets/NDG1.png"
+import ndgimg2 from "../assets/NDG2.png"
+import ndgimg3 from "../assets/NDG3.png"
+import ndgimg4 from "../assets/NDG4.png"
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { MdSquare } from "react-icons/md";
 
 export const Ncgames = () => {
   const slides = [
-    { src: ncgamesimg },
-    { src: ncgamesimg1 },
-    { src: ncgamesimg2 },
-    { src: ncgamesimg3 },
-    { src: ncgamesimg4 },
+    { src: ndgimg1 },
+    { src: ndgimg2 },
+    { src: ndgimg3 },
+    { src: ndgimg4 },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,14 +58,14 @@ export const Ncgames = () => {
       >
         <div className="pb-8 pt-32">
           <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232] ">
-            NC Games
+            No Dice Games
           </p>
 
           {/* body and img div */}
           <div className="flex flex-col md:flex-row md:items-center pb-4 pt-4 md:py-6 ">
             <div className="flex flex-col w-full md:w-1/2">
               <p className="pb-4">
-                NC-Games is a board game review aggregation application that
+                NDG is a board game review aggregation website that
                 enables users to sign in, view, vote on, and comment on reviews,
                 as well as post and delete their own comments. The reviews and
                 user interactions are managed through my own backend and
@@ -98,17 +96,18 @@ export const Ncgames = () => {
                     Jest
                   </li>
                   <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">
-                    CSS
+                    TailwindCSS
                   </li>
                 </ul>
               </footer>
             </div>
             {/* image div */}
             <div className="md:max-w-[450px] lg:max-w-[550px] lg:h-[400px] md:h-[475px] h-[400px] w-full m-auto relative px-8 group pt-6  md:px-9 lg:pb-0 md:pb-12 ">
-              <div
-                style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
-                className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
-              ></div>
+            <img 
+  src={slides[currentIndex].src}
+  alt="Project screenshot"
+  className="w-full h-full rounded-2xl object-cover duration-500"
+/>
               {/* left arrow */}
               <div className="opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-1000 absolute top-[50%] translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
                 <BsChevronCompactLeft onClick={prevSlide} size={30} />
