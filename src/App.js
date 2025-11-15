@@ -55,24 +55,24 @@ export const App = () => {
       <RevealOnScroll>
         <Skills />
       </RevealOnScroll>
-      <RevealOnScroll>
+      
         <Projects />
-      </RevealOnScroll>
-      <RevealOnScroll>
+      
+    
         <Ncgames />
-      </RevealOnScroll>
-      <RevealOnScroll>
+      
+    
         <FanFinder />
-      </RevealOnScroll>
-      <RevealOnScroll>
+      
+    
         <Weather />
-      </RevealOnScroll>
-      <RevealOnScroll>
+      
+    
         <VocabGame />
-      </RevealOnScroll>
-      <RevealOnScroll>
+      
+    
         <TextBasedRPG />
-      </RevealOnScroll>
+      
       <RevealOnScroll>
         <Contact />
       </RevealOnScroll>

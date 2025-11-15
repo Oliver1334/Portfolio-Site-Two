@@ -10,7 +10,7 @@ export const Projects = () => {
   return (
     <div
       
-      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] h-[150vh] pt-32 pb-32"
+      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] h-[150vh] pt-64 pb-32"
     >
       <div  className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-12">
         <div name="projects" className=" pt-32">
