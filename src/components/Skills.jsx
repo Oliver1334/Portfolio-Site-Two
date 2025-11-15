@@ -16,7 +16,7 @@ export const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full bg-[#040F0F] text-[#FCFFFC] h-[130vh] pb-32 scroll-mt-32 "
+      className="w-full bg-[#040F0F] text-[#FCFFFC] h-[130vh] pb-32 scroll-mt-96 "
     >
       {/* container */}
       <div name="skills-title" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-0 pb-32">
