@@ -1,6 +1,6 @@
 import React from "react";
 import weatherappimg from "../assets/weatherapp2.png";
-import ncgameslogo from "../assets/nclogo3.png";
+import nodicegameslogo from "../assets/nodicegameslogo.png";
 import fanFinder from "../assets/fanfinder.png";
 import morndulimg from "../assets/morndulPig.jpg"
 import vocabGame from "../assets/vocabGameCover.png"
@@ -30,8 +30,8 @@ export const Projects = () => {
   {/* Image */}
   <div className="p-2">
     <img
-      src={ncgameslogo}
-      alt="NC Games"
+      src={nodicegameslogo}
+      alt="No Dice Games"
       className="w-full h-48 object-cover border border-[#1E2929]"
     />
   </div>
@@ -40,12 +40,12 @@ export const Projects = () => {
   <div className="flex flex-col flex-grow p-4">
     {/* Title */}
     <h3 className="text-2xl font-bold text-[#FCFFFC] tracking-wide mb-2">
-      NC Games
+      No Dice Games
     </h3>
 
     {/* Description */}
     <p className="text-gray-300 text-sm mb-3">
-      NC Games is a board game review aggregation app allowing users
+      NDG is a board game review aggregation website allowing users
       to view, vote and comment on reviews amongst other features.
     </p>
 
