@@ -27,7 +27,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-        <Link to="skills-title" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
+        <Link to="skills" smooth={true} duration={500} className="text-[#FCFFFC] hover:text-[#2BA84A] duration-300" >
             Skills
           </Link>
         </li>
