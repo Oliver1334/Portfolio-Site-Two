@@ -52,10 +52,10 @@ export const TextBasedRPG = () => {
 
   return (
     <div
-      name="textBased"
-      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-12"
+      
+      className="w-full md:h-screen text-[#FCFFFC] bg-[#040F0F] pt-64"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-12">
+      <div name="textBased" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-32">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#FCFFFC] border-[#248232] ">
             The Crypts of Morn'Dul

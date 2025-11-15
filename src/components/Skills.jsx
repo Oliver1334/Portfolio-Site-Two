@@ -19,7 +19,7 @@ export const Skills = () => {
       className="w-full bg-[#040F0F] text-[#FCFFFC] h-[130vh] pb-32 scroll-mt-96 "
     >
       {/* container */}
-      <div name="skills-title" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-0 pb-32">
+      <div name="skills-title" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pt-32 pb-32">
         <div>
           <p  className="text-4xl font-bold inline border-b-4 border-[#248232] ">
             Skills
