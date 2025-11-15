@@ -77,7 +77,7 @@ export const TextBasedRPG = () => {
 
               <footer>
                 <ul className="flex flex-wrap gap-2 mb-4">
-                  <li className="bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full shadow-md">
+                  <li className="bg-emerald-400 text-black text-xs font-bold px-3 py-1 rounded-full shadow-md">
                     In Development
                   </li>
                   <li className="bg-[#248232] text-[#FCFFFC] text-xs font-medium px-3 py-1 rounded-full">

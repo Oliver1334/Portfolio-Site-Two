@@ -26,7 +26,12 @@ export const Projects = () => {
         <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 min-w-0 pb-32">
 
 {/* Project Card 1 */}
-<div className="bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+<div className="relative bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
+  {/* Ribbon Banner */}
+  <div className="absolute top-4 left-[-40px] rotate-[-45deg] bg-emerald-400 text-black text-xs font-bold shadow-lg flex items-center justify-center px-14 py-2"
+     style={{ transform: 'translate(-5px, 10px) rotate(-45deg)' }}>
+  Refining UI
+</div>
   {/* Image */}
   <div className="p-2">
     <img
@@ -290,7 +295,7 @@ export const Projects = () => {
 {/* Project Card 5 */}
 <div className="relative  bg-[#2D3A3A] shadow-lg overflow-hidden flex flex-col hover:scale-105 transition-transform duration-300 rounded-none">
   {/* Ribbon Banner */}
-  <div className="absolute top-4 left-[-40px] rotate-[-45deg] bg-yellow-500 text-black text-xs font-bold shadow-lg flex items-center justify-center px-12 py-2"
+  <div className="absolute top-4 left-[-40px] rotate-[-45deg] bg-emerald-400 text-black text-xs font-bold shadow-lg flex items-center justify-center px-12 py-2"
      style={{ transform: 'translate(-5px, 10px) rotate(-45deg)' }}>
   In Development
 </div>

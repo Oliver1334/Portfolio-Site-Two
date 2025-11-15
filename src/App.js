@@ -35,7 +35,9 @@ const RevealOnScroll = ({ children }) => {
   }, []); // Empty dependency array means this effect runs once
 
   // Determine CSS classes based on visibility
-  const classes = `transition-opacity duration-1000 ${isVisible ? "opacity-100" : "opacity-0"}`;
+  const classes = `transition-opacity duration-1000 ${
+    isVisible ? "opacity-100" : "opacity-0"
+  }`;
 
   return (
     <div ref={ref} className={classes}>
@@ -55,28 +57,22 @@ export const App = () => {
       <RevealOnScroll>
         <Skills />
       </RevealOnScroll>
-      
-        <Projects />
-      
-    
-        <Ncgames />
-      
-    
-        <FanFinder />
-      
-    
-        <Weather />
-      
-    
-        <VocabGame />
-      
-    
-        <TextBasedRPG />
-      
+
+      <Projects />
+
+      <Ncgames />
+
+      <FanFinder />
+
+      <Weather />
+
+      <VocabGame />
+
+      <TextBasedRPG />
+
       <RevealOnScroll>
         <Contact />
       </RevealOnScroll>
-
     </div>
   );
 };
