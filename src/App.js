@@ -10,6 +10,7 @@ import { Weather } from "./components/Weather";
 import { VocabGame } from "./components/VocabGame";
 import { TextBasedRPG } from "./components/TextBasedRPG";
 import { Spacer } from "./components/Spacer";
+import {FooterSpacer} from "./components/FooterSpacer";
 import React, { useEffect, useRef, useState } from "react";
 
 const RevealOnScroll = ({ children }) => {
@@ -60,21 +61,21 @@ export const App = () => {
       </RevealOnScroll>
 
       <Projects />
-
+      <Spacer/>
       <Ncgames />
-
+      <Spacer/>
       <FanFinder />
-
+      <Spacer/>
       <Weather />
-
+      <Spacer/>
       <VocabGame />
-
+      <Spacer/>
       <TextBasedRPG />
-
+      <Spacer/>
       <RevealOnScroll>
         <Contact />
       </RevealOnScroll>
-      <Spacer/>
+      <FooterSpacer/>
     </div>
   );
 };
