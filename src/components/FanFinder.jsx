@@ -139,7 +139,7 @@ export const FanFinder = () => {
               </button>
             </a>
             <a
-              href="https://github.com/Oliver1334/fanfinder-fe"
+              href="https://github.com/Oliver1334/fan-finder-FE"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -152,7 +152,7 @@ export const FanFinder = () => {
               </button>
             </a>
             <a
-              href="https://github.com/jbhall4291/fan-finder-backend"
+              href="https://github.com/Oliver1334/fan-finder-BE"
               target="_blank"
               rel="noopener noreferrer"
             >
