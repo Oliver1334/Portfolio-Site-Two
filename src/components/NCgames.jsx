@@ -145,7 +145,7 @@ export const Ncgames = () => {
             </a>
 
             <a
-              href="https://github.com/Oliver1334/nc-games-feproject"
+              href="https://github.com/Oliver1334/nodicegames-FE"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -159,7 +159,7 @@ export const Ncgames = () => {
             </a>
 
             <a
-              href="https://github.com/Oliver1334/nc-games-beproject"
+              href="https://github.com/Oliver1334/nodicegames-BE"
               target="_blank"
               rel="noopener noreferrer"
             >
