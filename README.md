@@ -26,7 +26,5 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 - **React**
 - **Tailwind CSS**
-- **React Scroll**
-- **React Typed**
-- **React Icons**
+
 
